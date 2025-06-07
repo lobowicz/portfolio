@@ -1,0 +1,84 @@
+/* Container for the entire card */
+.project-card {
+    width: 300px;                  /* fix a card width—adjust as needed */
+    border: 1px solid #ddd;       /* light border around each card */
+    border-radius: 8px;
+    overflow: hidden;              /* hide overflow so rounded corners apply */
+    background-color: #ffffff;
+    transition: box-shadow 0.2s ease;
+    margin: 1rem;                  /* spacing between cards in a grid */
+  }
+  
+  /* On hover, give a subtle shadow (no height animation here; GIF simply appears below) */
+  .project-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* ─── PROJECT INFO (always visible) ───────────────────────────────────────── */
+  
+  /* Container for title, date, description, icons */
+  .project-info {
+    padding: 1rem;
+  }
+  
+  /* Header row: title on left, icons on right */
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Project title text */
+  .project-title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Container for the two icons (links) */
+  .project-icons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  /* Each icon is just text (emoji) but could be replaced with an <svg> or <i> */
+  .project-icon {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #0077cc;
+    transition: color 0.2s ease;
+  }
+  
+  .project-icon:hover {
+    color: #005fa3;   /* darken on hover */
+  }
+  
+  /* Project date styling */
+  .project-date {
+    margin: 0.5rem 0;
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  /* Project description styling */
+  .project-desc {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  /* ─── GIF SECTION (only when hovering) ─────────────────────────────────────── */
+  
+  /* Container for the GIF image */
+  .project-gif {
+    width: 100%;
+    background-color: #f9f9f9; /* slightly off-white background behind the GIF */
+  }
+  
+  /* The GIF itself */
+  .project-gif img {
+    display: block;
+    width: 100%;
+    height: auto;         
+  }
+  

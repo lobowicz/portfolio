@@ -8,7 +8,9 @@ function Navbar() {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/projects">Projects</Link></li>
                 <li><Link to="/blog">Blog</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li>
+                    <a href="https://forms.gle/UTFEyBGtkLZu5FCVA" className="nav-link">Contact</a>
+                </li>
             </ul>  
         </nav>
     );

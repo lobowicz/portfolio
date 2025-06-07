@@ -1,0 +1,178 @@
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background: url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&auto=format&fit=crop&w=2044&q=80') center/cover no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Dark overlay effect to match the reference */
+.home-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.home-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 3rem;
+    z-index: 2;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.home-title {
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0 0 1rem 0;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.home-subtitle {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 0 0 3rem 0;
+    opacity: 0.9;
+    line-height: 1.4;
+    max-width: 600px;
+}
+
+.home-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.home-link {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.home-link:hover {
+    opacity: 0.8;
+    transform: translateX(10px);
+}
+
+.home-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.home-link:hover::after {
+    width: 100%;
+}
+
+/* Social Icons */
+.social-icons {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem 3rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-link {
+    color: white;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link:hover {
+    opacity: 1;
+    transform: translateY(-3px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-content {
+        padding: 2rem 1.5rem;
+        text-align: left;
+    }
+    
+    .home-title {
+        font-size: 2.5rem;
+    }
+    
+    .home-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .home-link {
+        font-size: 1.5rem;
+    }
+    
+    .social-icons {
+        padding: 1.5rem;
+        justify-content: center;
+    }
+    
+    .social-icons {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-title {
+        font-size: 2rem;
+    }
+    
+    .home-subtitle {
+        font-size: 1rem;
+    }
+    
+    .home-link {
+        font-size: 1.25rem;
+    }
+    
+    .home-nav {
+        gap: 1rem;
+    }
+}
+
+/* Alternative: If you have your own city image, replace the URL above with your image path */
+/* Example: background: url('./assets/your-city-image.jpg') center/cover no-repeat; */

@@ -39,7 +39,7 @@ export default function Home() {
                         <circle cx="4" cy="4" r="2"/>
                     </svg>
                 </a>
-                <a href="https://instagram.com/yourusername" className="social-link" aria-label="Instagram">
+                <a href="https://instagram.com/joseph_lobowicz" className="social-link" aria-label="Instagram">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
                         <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>

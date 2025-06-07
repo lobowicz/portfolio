@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    background: url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&auto=format&fit=crop&w=2044&q=80') center/cover no-repeat;
+    background: url('../../public/images/background-image.avif') center/cover no-repeat;
     background-attachment: fixed;
     color: white;
     padding: 0;
@@ -173,6 +173,3 @@
         gap: 1rem;
     }
 }
-
-/* Alternative: If you have your own city image, replace the URL above with your image path */
-/* Example: background: url('./assets/your-city-image.jpg') center/cover no-repeat; */

@@ -1,0 +1,50 @@
+.blog-card {
+    width: 300px;                   /* same width as ProjectCard */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;                   /* spacing in the grid */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .blog-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .blog-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blog-title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .blog-link-icon {
+    font-size: 1.2rem;
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .blog-link-icon:hover {
+    color: #005fa3;
+  }
+  
+  .blog-date {
+    margin: 0.5rem 0;
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  .blog-snippet {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  

@@ -6,13 +6,13 @@ const projects = [
         description: 'This project is one of the many on Joseph\'s portfolio',
         gif: '/images/technologia.gif',
         repoLink: 'https://github.com/lobowicz/portfolio',
-        liveLink: ''
+        liveLink: 'https://github.com/lobowicz/portfolio'
     }, 
     {
         id: 2,
         title: 'Project N/M',
         date: 'June 6, 2025',
-        description: 'This project is one of the many on Joseph\'s portfolio',
+        description: 'This project is one of the many on Joseph\'s portfolio. This project is one of the many on Joseph\'s portfolio.',
         gif: '/images/technologia.gif',
         repoLink: 'https://github.com/lobowicz/portfolio',
         liveLink: ''

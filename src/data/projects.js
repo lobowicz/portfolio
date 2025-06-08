@@ -1,12 +1,12 @@
 const projects = [
     {
         id: 1,
-        title: 'Project N/M',
-        date: 'June 6, 2025',
-        description: 'This project is one of the many on Joseph\'s portfolio',
+        title: 'Personal Website',
+        date: 'June 8, 2023',
+        description: 'This website.',
         gif: '/images/technologia.gif',
         repoLink: 'https://github.com/lobowicz/portfolio',
-        liveLink: 'https://github.com/lobowicz/portfolio'
+        liveLink: 'https://www.lobowicz.com'
     }, 
     {
         id: 2,

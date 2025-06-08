@@ -1,10 +1,10 @@
 const blogPosts = [
     {
       id: 1,
-      title: 'How I Built a Dynamic NBA Stats Extension',
-      date: 'May 15, 2025',
-      snippet: 'In this post, I explain step-by-step how I synced YouTube highlights with live stats using Python and JavaScript…',
-      link: 'https://github.com/lobowicz/portfolio'
+      title: 'Building and Deploying a React Portfolio Website with Netlify',
+      date: 'June 8, 2023',
+      snippet: 'A comprehensive guide for beginners to create a professional portfolio website using React and deploy it for free on Netlify…',
+      link: 'https://github.com/lobowicz/personal-website-blog#'
     },
     {
       id: 2,

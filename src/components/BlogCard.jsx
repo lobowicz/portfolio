@@ -14,7 +14,7 @@ export default function BlogCard({ post }) {
         <div className="blog-card">
             <div className="blog-card-header">
                 <h3 className="blog-title">{title}</h3>
-                <a href={link} target='_blank' className="blog-link-icon" title="Read article">🔗</a>
+                <a href={link} target='_blank' rel="noopener noreferrer" className="blog-link-icon" title="Read article">🔗</a>
             </div>
             <p className="blog-date">{date}</p>
             <p className="blog-snippet">{snippet}</p>

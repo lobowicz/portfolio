@@ -17,8 +17,8 @@ function ProjectCard({ project }) {
                 <div className="project-header">
                     <h3 className="project-title">{title}</h3>
                     <div className="project-icons">
-                        {liveLink && (<a href={liveLink} target="_blank" className="project-icon" title="Website">🔗</a>)}
-                        {repoLink && (<a href={repoLink} target="_blank" className="project-icon" title="Repository">🐙</a>)}
+                        {liveLink && (<a href={liveLink} target="_blank" rel="noopener noreferrer" className="project-icon" title="Website">🔗</a>)}
+                        {repoLink && (<a href={repoLink} target="_blank" rel="noopener noreferrer" className="project-icon" title="Repository">🐙</a>)}
                     </div>
                 </div>
 

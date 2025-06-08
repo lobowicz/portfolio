@@ -4,7 +4,7 @@ A personal website showcasing my projects, blog posts, and background in Math, C
 
 ## 🚀 Live Site
 
-[View Portfolio](https://your-netlify-url.netlify.app)
+[View Portfolio](https://lobowicz.com)
 
 ## 🛠️ Built With
 

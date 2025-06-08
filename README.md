@@ -21,3 +21,4 @@ A personal website showcasing my projects, blog posts, and background in Math, C
 - Personal blog section
 - Direct contact integration
 - Social media links
+

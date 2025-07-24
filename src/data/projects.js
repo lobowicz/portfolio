@@ -2,7 +2,7 @@ const projects = [
     {
         id: 1,
         title: 'MedSearch',
-        date: 'April 24, 2025',
+        date: 'May 30, 2025',
         description: 'MedSearch is a map web tool that helps users in Ghana find nearby insurance-accepting pharmacies stocking a given medicine.',
         gif: '/images/medsearch-image.png',
         repoLink: 'https://github.com/lobowicz/medsearch',
@@ -22,7 +22,7 @@ const projects = [
         title: 'Retail Instant Payment Service',
         date: 'March 13, 2025',
         description: 'A full-stack demo retail payment platform showcasing how small-to-medium retailers can integrate their checkout systems to generate dynamic, amount-locked QR codes and accept automated Mobile-Money or bank transfers.',
-        gif: '',
+        gif: '/images/retail-image.png',
         repoLink: 'https://github.com/lobowicz/ghipss-retail-ips',
         liveLink: ''
     },
@@ -40,7 +40,7 @@ const projects = [
         title: 'Needleman-Wunsch Global Sequence Alignment',
         date: 'January 29, 2025',
         description: 'A Java-based tool that implements the Needleman–Wunsch global sequence alignment algorithm with fully configurable scoring matrices and gap penalties, reading any two nucleotide sequences from files and producing an optimal similarity score and alignment.',
-        gif: '',
+        gif: '/images/needle-image.png',
         repoLink: 'https://github.com/lobowicz/needleman-wunsch-global-sequence-alignment',
         liveLink: ''
     },
@@ -76,7 +76,7 @@ const projects = [
         title: 'Learn English Through Taylor Swift’s Albums?',
         date: 'November 20, 2024',
         description: 'Investigated Taylor Swift’s discography by measuring vocabulary size, lyrical density, and new word intervals to assess its effectiveness as a tool for English language learners.',
-        gif: '',
+        gif: '/images/ts-image.png',
         repoLink: 'https://github.com/lobowicz/learn-english-with-albums',
         liveLink: ''
     },
@@ -85,7 +85,7 @@ const projects = [
         title: 'Media Framing in Political News Outlets',
         date: 'September 1, 2024',
         description: 'Analyzed a 17,362‑article corpus to uncover how word choice, sentiment, and topic emphasis vary across left‑leaning, neutral, and right‑leaning news outlets using statistical analyses and topic modeling.',
-        gif: '',
+        gif: '/images/media-image.png',
         repoLink: 'https://github.com/lobowicz/media-framing-political-news-outlets',
         liveLink: ''
     },
@@ -94,7 +94,7 @@ const projects = [
         title: 'Topic Modeling Drivers of Movie Review Sentiments',
         date: 'July 7, 2024',
         description: 'Applied latent Dirichlet allocation to IMDB reviews to identify themes distinguishing positive and negative sentiments, then built a gradient boosted classifier on topic proportions, achieving 90.7% accuracy and 0.897 AUC.',
-        gif: '',
+        gif: '/images/movies-image.png',
         repoLink: 'https://github.com/lobowicz/topic-model-drivers-movie-review-sentiments',
         liveLink: ''
     },
@@ -103,7 +103,7 @@ const projects = [
         title: 'Are We Making the Right Choices When It Comes to Frozen Food?',
         date: 'February 17, 2024',
         description: 'Performed analysis on over 50,000 frozen meals to compare nutritional value, cost, and convenience across grocery stores and evaluate whether homemade breakfast sandwiches offer healthier, more cost‑effective alternatives.',
-        gif: '',
+        gif: '/images/healthy-image.png',
         repoLink: 'https://github.com/lobowicz/frozen-food-choices',
         liveLink: ''
     },
@@ -129,7 +129,7 @@ const projects = [
         id: 15,
         title: 'OCR Gametime Extractor',
         date: 'September 11, 2023',
-        description: 'Prototype of a gametime extractor that pulls from YT highlights (component for another project). This service downloads YouTube videos, processes frames to detect game clocks and quarter information, and creates a timeline mapping video timestamps to actual game timestamps.',
+        description: 'Prototype of a gametime extractor that pulls from YT highlights (component for another project).',
         gif: '/images/technologia.gif',
         repoLink: 'https://github.com/lobowicz/yt-ocr-game-time',
         liveLink: ''

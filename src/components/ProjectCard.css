@@ -41,11 +41,11 @@
     gap: 0.5rem;
   }
   
-  /* Each icon is just text (emoji) but could be replaced with an <svg> or <i> */
+  /* Each icon is just text but could be replaced with an <svg> or <i> */
   .project-icon {
     font-size: 1.2rem;
     text-decoration: none;
-    color: #0077cc;
+    color: #000000;
     transition: color 0.2s ease;
   }
   

@@ -4,7 +4,7 @@ const projects = [
         title: 'MedSearch',
         date: 'May 30, 2025',
         description: 'MedSearch is a map web tool that helps users in Ghana find nearby insurance-accepting pharmacies stocking a given medicine.',
-        gif: '/images/medsearch-image.png',
+        gif: '/images/ms-test-image.png',
         repoLink: 'https://github.com/lobowicz/medsearch',
         liveLink: 'https://medsearchgh.com/'
     },
